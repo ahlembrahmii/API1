@@ -13,5 +13,5 @@ const blogSchema = new Schema({
 
   age: Number,
 });
-const User = mongoose.model("UserData", blogSchema);
+const User = mongoose.model("User", blogSchema);
 module.exports = User;
